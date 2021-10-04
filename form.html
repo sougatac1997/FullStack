@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <title>FORM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+        <h1>REGISTRATION FORM </h1>
+            <form>
+                <div>
+                NAME <input name="name" type="text" placeholder="Full Name"><br>
+                PASSWORD <input name="password" type="password"><br>
+                EMAIL <input name="email" type="email">
+                </div>
+                <div>
+                Favorite Color?
+                <input name="color" type="radio" value="red">red
+                <input name="color" type="radio" value="green">green
+                </div>
+               <div>
+                Country
+                <input name="country" list="countries" placeholder="country">
+                <datalist id="countries">
+                    <option value="afgan">
+                    <option value="india">
+                    </option>
+                </datalist></div>
+                    <button>Click me</button>
+            </form>
+        </div>
+    </body>
+</html>
